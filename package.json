@@ -1,6 +1,6 @@
 {
-  "name": "adonis-jest",
-  "version": "3.0.1",
+  "name": "adonis-jest-grv",
+  "version": "3.0.2",
   "description": "Jest preset for Adonis 5 support",
   "main": "jest-preset.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zakodium/adonis-jest.git"
+    "url": "git+https://github.com/bacubin/adonis-jest.git"
   },
   "keywords": [
     "jest",
@@ -24,7 +24,8 @@
   "dependencies": {
     "@adonisjs/ioc-transformer": "^2.3.3",
     "@adonisjs/require-ts": "^2.0.11",
-    "jest-environment-node": "^28.0.0"
+    "jest-environment-node": "^28.0.0",
+    "reflect-metadata": "^0.1.13",
   },
   "peerDependencies": {
     "@adonisjs/application": "*",

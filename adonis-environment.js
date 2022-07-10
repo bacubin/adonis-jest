@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 'use strict';
-
+require('reflect-metadata')
 const { Ignitor } = require('@adonisjs/core/build/standalone');
 const { register } = require('@adonisjs/require-ts');
 const NodeEnvironment = require('jest-environment-node').TestEnvironment;
