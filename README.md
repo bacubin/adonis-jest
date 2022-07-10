@@ -5,16 +5,16 @@ Jest preset for Adonis 5 support.
 ## Installation
 
 ```console
-npm install --save-dev adonis-jest
+npm install --save-dev adonis-jest-grv
 ```
 
 ## Usage
 
-Set `preset: 'adonis-jest'` in your Jest configuration:
+Set `preset: 'adonis-jest-grv'` in your Jest configuration:
 
 ```js
 module.exports = {
-  preset: 'adonis-jest',
+  preset: 'adonis-jest-grv',
 };
 ```
 
